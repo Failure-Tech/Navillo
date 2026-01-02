@@ -29,11 +29,10 @@ const Home = () => {
   const router = useRouter();
 
   const builders = [
-    "stealth startups",
-    "student founders",
-    "two-person teams",
-    "weekend hackers",
-    "innovators"
+    "is more affordable",
+    "is fine-tuned and tested",
+    "uses SOTA technology",
+    "is built w/ a strong team",
   ];
 
   // Typing effect
@@ -141,7 +140,7 @@ const Home = () => {
 
         <div className="-mt-35 z-10 flex flex-col items-center relative space-y-6 max-w-5xl">
           <h1 className="font-inter font-semibold text-[#181818] text-6xl leading-tight">
-            We create the tools that power <br /> tomorrow&apos;s{" "}
+            Our product is <br />
             <span className="inline-block min-w-[320px] text-left text-[#C45816] typing-cursor">
               {displayText}
             </span>
@@ -157,8 +156,8 @@ const Home = () => {
             /> */}
 
             <p className="font-inter text-xl text-[#333333] max-w-2xl relative z-10 px-4 leading-relaxed">
-              navillo is a Gen-Z engineering team building AI, cyber, and finance
-              products that give small teams the power of big companies.
+              Navillo is a Gen-Z engineering team building an affordable autonomous wheelchair for everyday use,
+              starting off in airports.
             </p>
           </div>
 
@@ -192,11 +191,8 @@ const Home = () => {
       {/* Product Section */}
       <div id="product-section" className="mt-32 px-6 scroll-mt-24 scroll-animate">
         <div className="max-w-5xl mx-auto text-left space-y-5">
-          <h1 className="font-inter text-[#C45816] text-xl font-medium uppercase tracking-wide">
-            Introducing our first product
-          </h1>
           <h1 className="font-inter font-medium text-5xl text-[#181818] leading-tight">
-            Meet navillo. The AI layer that makes every <br /> line of code secure by default.
+            Meet Navillo. An SLAM powered wheelchair powered from low-fiedlity microcontrollers
           </h1>
 
           <div className="pt-8">
@@ -216,9 +212,10 @@ const Home = () => {
       <div className="mt-32 px-6 scroll-animate">
         <div className="flex flex-col lg:flex-row justify-center text-left gap-x-20 gap-y-5 max-w-6xl mx-auto">
           <div className="flex flex-col items-left text-left font-inter space-y-3 max-w-md hover:scale-105 transition-transform duration-500">
-            <h1 className="text-4xl font-semibold text-[#181818]">Real-time Guardrails</h1>
+            <h1 className="text-4xl font-semibold text-[#181818]">Real-Time Processing</h1>
             <p className="text-lg text-[#555555] leading-relaxed">
-              Flags insecure code as it&apos;s generated, keeping <br /> developers safe without leaving their editor.
+              Processes the environment and confines it into a SLAM mapping
+              and using A* for optimal path finding from the constructed graph.
             </p>
             <Image 
               alt="Guardrails Image"
@@ -230,9 +227,9 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col items-left text-left font-inter space-y-3 max-w-md hover:scale-105 transition-transform duration-500">
-            <h1 className="font-inter text-4xl font-semibold text-[#181818]">Instant Secure Rewrite</h1>
+            <h1 className="font-inter text-4xl font-semibold text-[#181818]">Secure Transporation</h1>
             <p className="font-inter text-lg text-[#555555] leading-relaxed">
-              Generates a secure alternative instantly, reducing <br /> the time spent fixing vulnerabilities later.
+              Reduces travel time for anyone and is secure as seen from our trial runs.
             </p>
             <Image 
               alt="Instant Secure Rewrite Image"
@@ -248,13 +245,14 @@ const Home = () => {
       {/* CTA Section */}
       <div className="flex flex-col items-start text-left font-inter space-y-8 px-6 mt-36 max-w-5xl mx-auto scroll-animate">
         <h1 className="text-xl text-[#C45816] font-inter font-medium uppercase tracking-wide">
-          It&apos;s time to code safe
+          It&apos;s time to naviate safe
         </h1>
         
         <h1 className="text-6xl font-inter font-medium text-[#181818] leading-tight">
-          Debugging. Shipping apps. <br />
-          Writing APIs. Building fintech. <br />
-          Every line of code.
+          Advanced Technology. <br />
+          Automatic SLAM. <br />
+          Safe Navigation. <br />
+          Simulated.
         </h1>
 
         <button onClick={handleNavigate} className="cursor-pointer flex font-inter font-medium items-center gap-3 bg-gradient-to-r from-[#C45816] to-[#d66119] text-white px-8 py-3.5 rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">
@@ -265,7 +263,7 @@ const Home = () => {
       {/* Smart Coding Section */}
       <div className="px-6 py-32 flex flex-col items-center text-center font-inter scroll-animate">
         <h1 className="text-5xl font-semibold text-[#181818] mb-10">
-          Smarter coding starts with safety
+          Better navigation starts with trust
         </h1>
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-10 max-w-6xl">
