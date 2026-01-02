@@ -53,7 +53,7 @@ const ForsythFirst = () => {
                     <strong>Forsyth First</strong> is our way of empowering developers—not just with tools, but with time, space, and guidance to build what matters.
                 </p>
                 <p className="text-lg">
-                    It’s a build sprint meets workshop, designed to help small teams and solo developers go from zero to shipping with <strong>Kairo</strong>—our secure-by-default coding assistant—at the center of the process.
+                    It’s a build sprint meets workshop, designed to help small teams and solo developers go from zero to shipping with <strong>navillo</strong>—our secure-by-default coding assistant—at the center of the process.
                 </p>
 
                 <h1 className="text-2xl font-semibold">Why We Started It</h1>
@@ -61,23 +61,23 @@ const ForsythFirst = () => {
                     We saw a gap. Too many developers are expected to &quot;just know&quot; how to integrate AI tooling into their workflows. Security is often left for later, and most hackathons prioritize speed over sustainability or robustness.
                 </p>
                 <p className="text-lg">
-                    Forsyth First flips that script. It gives developers early access to Kairo, technical guidance, and a protected environment to experiment with fast iteration and secure practices—without the pressure of “getting it perfect.”
+                    Forsyth First flips that script. It gives developers early access to navillo, technical guidance, and a protected environment to experiment with fast iteration and secure practices—without the pressure of “getting it perfect.”
                 </p>
 
                 <h1 className="text-2xl font-semibold">How It Works</h1>
                 <p className="text-lg">
-                    Each Forsyth First cohort begins with a hands-on workshop. We walk through how Kairo works under the hood, best practices for integrating it into modern web stacks, and show real examples of security-first features in action.
+                    Each Forsyth First cohort begins with a hands-on workshop. We walk through how navillo works under the hood, best practices for integrating it into modern web stacks, and show real examples of security-first features in action.
                 </p>
                 <p className="text-lg">
-                    Then, teams enter the sprint phase—spending 48 hours building a project of their choice using Kairo. Throughout the sprint, our engineers and researchers are available for feedback, debugging, and deep dives into Kairo’s capabilities.
+                    Then, teams enter the sprint phase—spending 48 hours building a project of their choice using navillo. Throughout the sprint, our engineers and researchers are available for feedback, debugging, and deep dives into navillo’s capabilities.
                 </p>
 
-                <h1 className="text-2xl font-semibold">Kairo at the Core</h1>
+                <h1 className="text-2xl font-semibold">navillo at the Core</h1>
                 <p className="text-lg">
-                    The real power of Forsyth First is getting to see how Kairo works in a real-world, creative environment. Developers learn not just how to write secure code—but how to build with flow, stay in the zone, and let Kairo handle the grunt work.
+                    The real power of Forsyth First is getting to see how navillo works in a real-world, creative environment. Developers learn not just how to write secure code—but how to build with flow, stay in the zone, and let navillo handle the grunt work.
                 </p>
                 <p className="text-lg">
-                    From autocompleting secure API patterns to flagging bad habits early, Kairo becomes a silent partner in the room. And by the end of the sprint, participants walk away not only with a demo—but a deeper understanding of what secure-by-default development feels like.
+                    From autocompleting secure API patterns to flagging bad habits early, navillo becomes a silent partner in the room. And by the end of the sprint, participants walk away not only with a demo—but a deeper understanding of what secure-by-default development feels like.
                 </p>
 
                 <h1 className="text-2xl font-semibold">What’s Next</h1>

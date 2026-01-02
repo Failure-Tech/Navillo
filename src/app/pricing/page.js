@@ -32,10 +32,10 @@ const Pricing = () => {
         <h1 className="text-6xl font-semibold flex items-center justify-center text-center gap-2">
           Get started 
           <Image
-            src="/condrx_labs_logo.png"
+            src="/navillo_labs_logo.png"
             width={71}
             height={80}
-            alt="CondRx Labs Logo"
+            alt="navillo Labs Logo"
             className="rotate-345 scale-100"
           />
           <span className="text-6xl font-semibold text-[#C45816]">
@@ -43,7 +43,7 @@ const Pricing = () => {
           </span>
         </h1>
         <p className="text-xl text-center font-normal">
-          Whether you&apos;re building for fun or for scale, Kairo keeps every line
+          Whether you&apos;re building for fun or for scale, navillo keeps every line
           of <br /> code secure by default.
         </p>
       </div>
@@ -110,7 +110,7 @@ const Pricing = () => {
               </div>
               <div className="flex items-center gap-2">
                 <IoCheckmark />
-                <p>Access to improved Kairo LLM</p>
+                <p>Access to improved navillo LLM</p>
               </div>
               <div className="flex items-center gap-2">
                 <IoCheckmark />
@@ -151,7 +151,7 @@ const Pricing = () => {
               </div>
               <div className="flex items-center gap-2">
                 <IoCheckmark />
-                <p>Priority access to new Kairo models and beta features</p>
+                <p>Priority access to new navillo models and beta features</p>
               </div>
             </div>
           </div>
@@ -207,7 +207,7 @@ const Pricing = () => {
           {
             title: "Your Coding Flow",
             rows: [
-              ["Kairo Access", ["Core", "Kairo+", "Kairo-X"]],
+              ["navillo Access", ["Core", "navillo+", "navillo-X"]],
               ["Prompt Customization", ["X", "Basic", "Persistent Memory"]],
               ["Daily Usage Limit", ["25/day", "100/day", "Unlimited"]],
               ["Project History", ["X", "X", "Check"]],
@@ -273,8 +273,8 @@ const Pricing = () => {
               Free for students. Six months on us.
             </h1>
             <p className="text-lg md:text-xl font-normal max-w-2xl">
-              We&apos;re building Condrx in high school — and we&apos;re keeping it that way. <br />
-              Every verified high school student gets full access to Kairo Pro for 6 <br />
+              We&apos;re building navillo in high school — and we&apos;re keeping it that way. <br />
+              Every verified high school student gets full access to navillo Pro for 6 <br />
               months, completely free.
             </p>
           </div>

@@ -13,10 +13,10 @@ const Blog = () => {
 
   const data = [
     {
-      image: "/welcome_condrx.png",
+      image: "/welcome_navillo.png",
       section: "Company",
       date: "6/27/2025",
-      name: "A hello and welcome from Condrx",
+      name: "A hello and welcome from navillo",
       click: "/blog/pages/start",
       description:
         "From our roots as a small Gen-Z team in Forsyth to our vision of making technology safer and smarter for builders everywhere, this post sets the tone for everything to come.",
@@ -33,11 +33,11 @@ const Blog = () => {
       author: "Gautham Korrapati",
     },
     {
-      image: "/kairo.png",
+      image: "/navillo.png",
       section: "Company",
       date: "9/9/2025",
-      name: "Building Kairo: Making Code Secure by Default",
-      click: "/blog/pages/kairo",
+      name: "Building navillo: Making Code Secure by Default",
+      click: "/blog/pages/navillo",
       description:
         "A behind-the-scenes look at how we’re designing an AI layer that guards every line of code, not just audits it.",
       author: "Gautham Korrapati",
@@ -56,7 +56,7 @@ const Blog = () => {
       image: "/grind.png",
       section: "Company",
       date: "9/25/2025",
-      name: "The Grind and Why Condrx Exists",
+      name: "The Grind and Why navillo Exists",
       click: "/blog/pages/grind",
       description:
         "The founding story, from late-night Figma screens to the conviction that AI safety and fintech fairness belong together.",
@@ -78,7 +78,7 @@ const Blog = () => {
     filter === "All" ? data : data.filter((post) => post.section === filter);
 
   const handleSocials = () => {
-    window.open("https://x.com/condrxeng", "_blank");
+    window.open("https://x.com/navilloeng", "_blank");
   }
 
   return (
@@ -91,7 +91,7 @@ const Blog = () => {
           <div className="flex flex-col space-y-4 text-left">
             <h1 className="font-semibold text-[7rem] leading-[6.5rem]">Blog</h1>
             <p className="text-xl leading-snug text-[#333]">
-              Thoughts from Condrx on our journey, <br />
+              Thoughts from navillo on our journey, <br />
               experiments, and lessons in <br />
               AI, cyber, and fintech.
             </p>
@@ -100,7 +100,7 @@ const Blog = () => {
           <div>
             <Image
               alt="Ship logo"
-              src="/condrx_labs_logo.png"
+              src="/navillo_labs_logo.png"
               height={275}
               width={275}
             />
@@ -112,7 +112,7 @@ const Blog = () => {
       <div className="flex justify-center mt-20 font-inter">
         <div className="relative w-[80vw] h-[37vw] rounded-2xl overflow-hidden shadow-xl">
           <Image
-            src="/condrx_vision_blog_page.png"
+            src="/navillo_vision_blog_page.png"
             alt="Blog background"
             layout="fill"
             objectFit="cover"
@@ -136,7 +136,7 @@ const Blog = () => {
               </div>
             </div>
             <div>
-              <button onClick={() => router.push("/blog/pages/kairo")} className="cursor-pointer font-medium flex items-center gap-3 bg-gradient-to-r from-[#373941] to-[#232428] text-white px-8 py-4 text-lg rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">
+              <button onClick={() => router.push("/blog/pages/navillo")} className="cursor-pointer font-medium flex items-center gap-3 bg-gradient-to-r from-[#373941] to-[#232428] text-white px-8 py-4 text-lg rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">
                 Read full case <FaChevronRight className="text-base" />
               </button>
             </div>
@@ -212,7 +212,7 @@ const Blog = () => {
         />
         <h1 className="text-6xl font-medium font-inter">Stay in the loop.</h1>
         <p className="text-lg font-normal text-[#333] max-w-md">
-          Keep up with the latest updates and news from Condrx.
+          Keep up with the latest updates and news from navillo.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <button onClick={() => navigate("/product")} className="cursor-pointer font-inter font-medium flex items-center gap-3 bg-gradient-to-r from-[#C45816] to-[#d66119] text-white px-6 py-3 rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 z-10 shadow-xl">

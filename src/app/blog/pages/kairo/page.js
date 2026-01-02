@@ -2,7 +2,7 @@ import Navbar from "@/app/components/navbar";
 import Footer from "@/app/components/footer";
 import Image from "next/image";
 
-const Kairo = () => {
+const navillo = () => {
   return (
     <>
       <Navbar />
@@ -15,7 +15,7 @@ const Kairo = () => {
 
         {/* Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold text-left">
-          Building Kairo: Making Code Secure by Default
+          Building navillo: Making Code Secure by Default
         </h1>
 
         {/* Meta info */}
@@ -38,8 +38,8 @@ const Kairo = () => {
       {/* Main Image */}
       <div className="px-6 sm:px-20 md:px-32 lg:px-48 mb-10">
         <Image
-          src="/kairo.png"
-          alt="kairo image"
+          src="/navillo.png"
+          alt="navillo image"
           width={1020}
           height={510}
           className="rounded-xl w-full"
@@ -50,7 +50,7 @@ const Kairo = () => {
       <div className="font-inter text-left text-sm text-gray-800 space-y-6 px-6 sm:px-20 md:px-32 lg:px-48 mb-16 leading-relaxed">
         <h1 className="text-2xl font-semibold">It Started with a Simulation</h1>
         <p className="text-lg">
-          Before we built Kairo, we built something very different: a reinforcement learning simulation to test how agents could reason through ambiguous goals and reward structures. We wanted to understand not just if models could act—but if they could learn intent in uncertain environments.
+          Before we built navillo, we built something very different: a reinforcement learning simulation to test how agents could reason through ambiguous goals and reward structures. We wanted to understand not just if models could act—but if they could learn intent in uncertain environments.
         </p>
         <p className="text-lg">
           The simulation worked. But we quickly hit a wall: agents could &quot;succeed&quot; by cutting corners, bypassing systems, or finding shortcuts that a human team would never accept in a real-world product. That’s when we started thinking seriously about trust, security, and goal alignment in code generation.
@@ -69,12 +69,12 @@ const Kairo = () => {
           We didn’t want to just audit code. We wanted to build a system that could guide developers in real time—helping them write secure code by default, not by checklist. Something that could reason through what you&apos;re building, not just how.
         </p>
         <p className="text-lg">
-          We named it Kairo—a nod to time, intent, and precision. It&apos;s not another security scanner. It&apos;s an intelligent layer that understands purpose and flags misalignments before they ship.
+          We named it navillo—a nod to time, intent, and precision. It&apos;s not another security scanner. It&apos;s an intelligent layer that understands purpose and flags misalignments before they ship.
         </p>
 
         <h1 className="text-2xl font-semibold">Grounded in Research</h1>
         <p className="text-lg">
-          The core of Kairo is built on insights from{" "}
+          The core of navillo is built on insights from{" "}
           <a
             href="https://arxiv.org/abs/2507.19060"
             target="_blank"
@@ -90,7 +90,7 @@ const Kairo = () => {
 
         <h1 className="text-2xl font-semibold">Where We&apos;re Headed</h1>
         <p className="text-lg">
-          Kairo is still evolving. We’re rolling it out selectively, testing it with real teams in real-world security environments. But the vision is clear: to help developers build secure-by-default systems without breaking flow.
+          navillo is still evolving. We’re rolling it out selectively, testing it with real teams in real-world security environments. But the vision is clear: to help developers build secure-by-default systems without breaking flow.
         </p>
         <p className="text-lg">
           Because the best security tools don’t just catch mistakes—they change how we build in the first place.
@@ -102,4 +102,4 @@ const Kairo = () => {
   );
 };
 
-export default Kairo;
+export default navillo;

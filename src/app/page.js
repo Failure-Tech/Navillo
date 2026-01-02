@@ -157,7 +157,7 @@ const Home = () => {
             /> */}
 
             <p className="font-inter text-xl text-[#333333] max-w-2xl relative z-10 px-4 leading-relaxed">
-              Condrx is a Gen-Z engineering team building AI, cyber, and finance
+              navillo is a Gen-Z engineering team building AI, cyber, and finance
               products that give small teams the power of big companies.
             </p>
           </div>
@@ -196,12 +196,12 @@ const Home = () => {
             Introducing our first product
           </h1>
           <h1 className="font-inter font-medium text-5xl text-[#181818] leading-tight">
-            Meet Kairo. The AI layer that makes every <br /> line of code secure by default.
+            Meet navillo. The AI layer that makes every <br /> line of code secure by default.
           </h1>
 
           <div className="pt-8">
             {/* <Image 
-              alt="Kairo Product Interface"
+              alt="navillo Product Interface"
               src="/window.svg"
               width={973}
               height={535}
@@ -364,10 +364,10 @@ const Home = () => {
               Your favorite plugins
             </h1>
             <h2 className="font-inter text-5xl font-semibold text-[#181818] leading-tight mb-6">
-              Kairo lives where you code, <br /> upgrading the tools you <br /> already use
+              navillo lives where you code, <br /> upgrading the tools you <br /> already use
             </h2>
             <p className="font-inter text-xl text-[#555555] mt-8 max-w-3xl mx-auto leading-relaxed">
-              Kairo integrates directly with editors like Cursor and <br /> Copilot, enhancing the plugins you already use with <br /> seamless, real-time security.
+              navillo integrates directly with editors like Cursor and <br /> Copilot, enhancing the plugins you already use with <br /> seamless, real-time security.
             </p>
           </div>
 
@@ -524,8 +524,8 @@ const Home = () => {
             <div className="space-y-5">
               <div className="flex items-center space-x-2">
                 <Image 
-                  src="/condrx_labs_logo.png"
-                  alt="condrx logo"
+                  src="/navillo_labs_logo.png"
+                  alt="navillo logo"
                   width={50}
                   height={50}
                 />
@@ -538,7 +538,7 @@ const Home = () => {
             <div>
               <h3 className="font-inter font-medium mb-5 text-lg">Product</h3>
               <ul className="space-y-3 font-inter text-sm">
-                <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Kairo</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">navillo</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Features</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Pricing</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Documentation</a></li>
@@ -568,7 +568,7 @@ const Home = () => {
 
           <div className="border-t border-gray-800 mt-12 pt-10 text-center">
             <p className="font-inter text-sm text-gray-500">
-              © 2025 Condrx Labs. All rights reserved.
+              © 2025 navillo Labs. All rights reserved.
             </p>
           </div>
         </div>

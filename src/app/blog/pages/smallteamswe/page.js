@@ -53,20 +53,20 @@ const Smallteamswe = () => {
                     Startups and small engineering teams move fast—but that speed often comes at a cost. Time is scarce, security feels like a “later” problem, and engineers are expected to be full-stack, DevOps, and compliance officers all at once.
                 </p>
                 <p className="text-lg">
-                    That’s why we built <strong>Kairo</strong>: to give small teams access to the kind of secure-by-default, intelligent development tooling that was once reserved for giant enterprises with dedicated security orgs.
+                    That’s why we built <strong>navillo</strong>: to give small teams access to the kind of secure-by-default, intelligent development tooling that was once reserved for giant enterprises with dedicated security orgs.
                 </p>
 
                 <h1 className="text-2xl font-semibold">Security That Doesn’t Slow You Down</h1>
                 <p className="text-lg">
-                    With Kairo, secure development isn’t a separate step—it’s baked into your flow. Instead of running security audits post-deploy or juggling checklists, Kairo operates in the background of your editor, suggesting safer patterns and flagging risky implementations in real time.
+                    With navillo, secure development isn’t a separate step—it’s baked into your flow. Instead of running security audits post-deploy or juggling checklists, navillo operates in the background of your editor, suggesting safer patterns and flagging risky implementations in real time.
                 </p>
                 <p className="text-lg">
-                    No need for external scanners, third-party consultants, or endless context switching. Kairo is the teammate who reads your code as you write it and keeps you out of trouble—without slowing you down.
+                    No need for external scanners, third-party consultants, or endless context switching. navillo is the teammate who reads your code as you write it and keeps you out of trouble—without slowing you down.
                 </p>
 
                 <h1 className="text-2xl font-semibold">One Engineer, Powered by Ten</h1>
                 <p className="text-lg">
-                    Small teams don’t have the luxury of specialization. But with Kairo, a single developer can ship like a full-stack squad. From understanding security implications of API routes to suggesting more robust patterns, Kairo helps you write better code—not just faster, but smarter.
+                    Small teams don’t have the luxury of specialization. But with navillo, a single developer can ship like a full-stack squad. From understanding security implications of API routes to suggesting more robust patterns, navillo helps you write better code—not just faster, but smarter.
                 </p>
                 <p className="text-lg">
                     It’s like having a senior engineer, security lead, and code reviewer all in one place, available on every line you write.
@@ -77,12 +77,12 @@ const Smallteamswe = () => {
                     Big companies have buffers—compliance teams, red team audits, and budget for incidents. Small teams don’t. One misconfigured endpoint, one overlooked vulnerability, one insecure dependency can mean broken trust or lost deals.
                 </p>
                 <p className="text-lg">
-                    Kairo brings those enterprise protections into the hands of lean builders. So you can ship faster *and* more confidently.
+                    navillo brings those enterprise protections into the hands of lean builders. So you can ship faster *and* more confidently.
                 </p>
 
                 <h1 className="text-2xl font-semibold">Build with Confidence</h1>
                 <p className="text-lg">
-                    We believe small teams deserve better. Not watered-down tools. Not late-stage patches. Real-time, proactive, research-backed security baked into your workflow. That’s what Kairo delivers—and we’re just getting started.
+                    We believe small teams deserve better. Not watered-down tools. Not late-stage patches. Real-time, proactive, research-backed security baked into your workflow. That’s what navillo delivers—and we’re just getting started.
                 </p>
                 <p className="text-lg">
                     Because great software doesn’t just ship quickly. It ships securely, intuitively, and with confidence.

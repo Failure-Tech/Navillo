@@ -11,18 +11,18 @@ const Navbar = () => {
         <nav className="w-full flex items-center justify-between px-6 py-4">
             {/* Left section: Logo and Typography */}
             <div className="flex items-center space-x-2 hover:cursor-pointer" onClick={() => router.push("/")}>
-                <Image 
-                    src="/condrx_labs_logo.png"
-                    alt="condrx logo"
+                {/* <Image 
+                    src="/navillo_labs_logo.png"
+                    alt="navillo logo"
                     width={60}
                     height={60}
-                />
-                <Image 
-                    src="/condrx_labs_logo_typography.png"
-                    alt="condrx logo typography"
+                /> */}
+                {/* <Image 
+                    src="/navillo_labs_logo_typography.png"
+                    alt="navillo logo typography"
                     width={120}
                     height={40}
-                />
+                /> */}
             </div>
 
             {/* Center: Navigation Links */}

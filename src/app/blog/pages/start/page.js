@@ -15,7 +15,7 @@ const Start = () => {
 
                 {/* Heading */}
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold text-left">
-                    A hello and welcome from Condrx
+                    A hello and welcome from navillo
                 </h1>
 
                 {/* Meta info (date, read time, author) */}
@@ -38,7 +38,7 @@ const Start = () => {
             {/* Main Image */}
             <div className="px-6 sm:px-20 md:px-32 lg:px-48 mb-10">
                 <Image
-                    src="/welcome_condrx.png"
+                    src="/welcome_navillo.png"
                     alt="welcome image"
                     width={1020}
                     height={510}
@@ -48,12 +48,12 @@ const Start = () => {
 
             {/* Article Content */}
             <div className="font-inter text-left text-sm text-gray-800 space-y-6 px-6 sm:px-20 md:px-32 lg:px-48 mb-16 leading-relaxed">
-                <h1 className="text-2xl font-semibold">Welcome to Condrx</h1>
+                <h1 className="text-2xl font-semibold">Welcome to navillo</h1>
                 <p className="text-lg">
                     We&apos;re a small R&D firm with big ambitions—on a mission to build tools that solve the hardest problems in AI, security, and finance. We believe innovation doesn’t come from following trends. It comes from rethinking systems, asking deeper questions, and shipping with care.
                 </p>
                 <p className="text-lg">
-                    Condrx was started by a group of builders who wanted to do things differently. We don’t just write code—we build systems, explore research, and chase ideas worth grinding for. The goal? To take the breakthroughs happening in papers, labs, and open-source—and turn them into real-world, user-first products.
+                    navillo was started by a group of builders who wanted to do things differently. We don’t just write code—we build systems, explore research, and chase ideas worth grinding for. The goal? To take the breakthroughs happening in papers, labs, and open-source—and turn them into real-world, user-first products.
                 </p>
 
                 <h1 className="text-2xl font-semibold">What We’re About</h1>
@@ -66,7 +66,7 @@ const Start = () => {
 
                 <h1 className="text-2xl font-semibold">Why We Exist</h1>
                 <p className="text-lg">
-                    The world is changing fast, but too much of the new tech is being built without thought for its impact—or without tools that make it safe and usable for everyone. Condrx exists to shift that. We want to build technology that doesn’t just move fast, but moves in the right direction.
+                    The world is changing fast, but too much of the new tech is being built without thought for its impact—or without tools that make it safe and usable for everyone. navillo exists to shift that. We want to build technology that doesn’t just move fast, but moves in the right direction.
                 </p>
                 <p className="text-lg">
                     We’re here to work on the hard stuff. Not the next To-Do app—but the infrastructure that will support the next generation of builders, researchers, and companies pushing what’s possible.

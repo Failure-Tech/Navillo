@@ -13,29 +13,29 @@ const Product = () => {
 
   const faq = [
     {
-      question: "How does Kairo make code more secure?",
+      question: "How does navillo make code more secure?",
       answer:
-        "Kairo automatically detects potential vulnerabilities like injection risks or unsafe API keys inside your coding environment, and flags them in real time. Every fix is explainable, so you always stay in control.",
+        "navillo automatically detects potential vulnerabilities like injection risks or unsafe API keys inside your coding environment, and flags them in real time. Every fix is explainable, so you always stay in control.",
     },
     {
-      question: "Does Kairo collect or store my code?",
+      question: "Does navillo collect or store my code?",
       answer:
-        "Kairo securely processes snippets of anonymized code to improve detection accuracy and model performance. We never store identifiable user projects or link submissions to individuals. All training data is sanitized, encrypted, and used solely to make Kairo smarter over time.",
+        "navillo securely processes snippets of anonymized code to improve detection accuracy and model performance. We never store identifiable user projects or link submissions to individuals. All training data is sanitized, encrypted, and used solely to make navillo smarter over time.",
     },
     {
-      question: "Which coding tools does Kairo integrate with?",
+      question: "Which coding tools does navillo integrate with?",
       answer:
-        "Kairo currently supports Python environments and integrates natively with IDEs like VS Code and Cursor. Support for more JavaScript and AI copilots is coming soon.",
+        "navillo currently supports Python environments and integrates natively with IDEs like VS Code and Cursor. Support for more JavaScript and AI copilots is coming soon.",
     },
     {
-      question: "Is Kairo free to use?",
+      question: "Is navillo free to use?",
       answer:
-        "Yes — Kairo is free for early adopters while in beta. We’ll announce flexible plans for students, small teams, and startups later this year.",
+        "Yes — navillo is free for early adopters while in beta. We’ll announce flexible plans for students, small teams, and startups later this year.",
     },
     {
-      question: "Who is Kairo built for?",
+      question: "Who is navillo built for?",
       answer:
-        "Kairo is designed for developers who care about speed and safety — from student engineers to small teams.",
+        "navillo is designed for developers who care about speed and safety — from student engineers to small teams.",
     },
   ];
 
@@ -92,7 +92,7 @@ const Product = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full">
           <h1 className="text-4xl font-medium font-inter mb-4 md:mb-0">
-            Code faster, ship safer with Kairo.
+            Code faster, ship safer with navillo.
           </h1>
 
           <button
@@ -154,7 +154,7 @@ const Product = () => {
               />
             </div>
             <p className="ml-auto text-right text-base md:text-lg w-full">
-              Run, debug, and test inside Kairo’s built-in Python IDE without <br />
+              Run, debug, and test inside navillo’s built-in Python IDE without <br />
               setup, switching windows, and no lost flow.
             </p>
           </div>
@@ -168,7 +168,7 @@ const Product = () => {
               <Image src="/lock.svg" alt="lock icon" width={70} height={70} className="scale-300" />
             </div>
             <p className="w-full text-right text-base md:text-lg">
-              Kairo gets smarter with every fix — adapting to your team’s <br />
+              navillo gets smarter with every fix — adapting to your team’s <br />
               stack and frameworks. Conditions apply.
             </p>
           </div>
@@ -205,10 +205,10 @@ const Product = () => {
 
       <div className="flex flex-col justify-center items-center">
         <Image
-          src="/kairologo.png"
+          src="/navillologo.png"
           width={1000}
           height={1}
-          alt="Kairo logo"
+          alt="navillo logo"
           className="mx-auto mt-[-150]"
         />
         <button onClick={handleWaitlist} className="cursor-pointer mt-[-150] mb-15 bg-gradient-to-r from-[#C45816] to-[#E37633] text-white py-4 px-10 rounded-lg text-lg flex items-center gap-2">
@@ -323,7 +323,7 @@ const Product = () => {
         </h1>
         <p className="items-center text-center justify-center ">
           From a high school engineering group to a growing ecosystem of secure,{" "}
-          <br /> real-world products — Condrx is where ambitious ideas get built
+          <br /> real-world products — navillo is where ambitious ideas get built
           right.
         </p>
         <div className="flex gap-4 mt-4 items-center justify-center">

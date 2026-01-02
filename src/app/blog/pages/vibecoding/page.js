@@ -56,9 +56,9 @@ const vibecode = () => {
           Today’s developers are moving into a new rhythm—what we call &quot;vibe coding.&quot; It’s a workflow powered by intuition, AI suggestions, and seamless context-awareness. Instead of digging through forums, you build in flow. The tool reads your intent, predicts your path, and offers relevant blocks before you even ask.
         </p>
 
-        <h1 className="text-2xl font-semibold">How Condrx Enables Flow</h1>
+        <h1 className="text-2xl font-semibold">How navillo Enables Flow</h1>
         <p className="text-lg">
-          Condrx isn’t just about automation—it’s about unlocking the human side of coding. By integrating multimodal agents into the editor, we eliminate the micro-decisions that derail progress. Whether you’re sketching logic in Figma, debugging APIs, or switching between language models, Condrx keeps you in the zone.
+          navillo isn’t just about automation—it’s about unlocking the human side of coding. By integrating multimodal agents into the editor, we eliminate the micro-decisions that derail progress. Whether you’re sketching logic in Figma, debugging APIs, or switching between language models, navillo keeps you in the zone.
         </p>
         <p className="text-lg">
           We’ve focused on reducing mental tax: fewer copy-paste moments, fewer “where did I leave that tab” moments. It’s not just faster—it’s smoother. And for the first time, developers can experience that elusive feeling of coding as a creative medium, not a troubleshooting chore.

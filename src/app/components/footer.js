@@ -7,12 +7,12 @@ const Footer = () => {
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
                     <div className="space-y-5">
                       <div className="flex items-center space-x-2">
-                        <Image 
-                          src="/condrx_labs_logo.png"
-                          alt="condrx logo"
+                        {/* <Image 
+                          src="/navillo_labs_logo.png"
+                          alt="navillo logo"
                           width={50}
                           height={50}
-                        />
+                        /> */}
                       </div>
                       <p className="font-inter text-sm text-gray-400 leading-relaxed">
                         Building the future of secure development tools for the next generation.
@@ -22,7 +22,7 @@ const Footer = () => {
                     <div>
                       <h3 className="font-inter font-medium mb-5 text-lg">Product</h3>
                       <ul className="space-y-3 font-inter text-sm">
-                        <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Kairo</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">navillo</a></li>
                         <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Features</a></li>
                         <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Pricing</a></li>
                         <li><a href="#" className="text-gray-400 hover:text-[#C45816] transition-colors duration-300">Documentation</a></li>
@@ -52,7 +52,7 @@ const Footer = () => {
         
                   <div className="border-t border-gray-800 mt-12 pt-10 text-center">
                     <p className="font-inter text-sm text-gray-500">
-                      © 2025 Condrx Labs. All rights reserved.
+                      © 2025 navillo Labs. All rights reserved.
                     </p>
                   </div>
                 </div>

@@ -17,10 +17,10 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Condrx",
+  title: "navillo",
   description: "Cyber & Fintech R&D Firm",
   icons: {
-    icon: "/condrx_labs_logo.png"
+    icon: "/navillo_labs_logo.png"
   }
 };
 

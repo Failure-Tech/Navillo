@@ -15,7 +15,7 @@ const Grind = () => {
 
                 {/* Heading */}
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold text-left">
-                    The Grind and Why Condrx Exists
+                    The Grind and Why navillo Exists
                 </h1>
 
                 {/* Meta info (date, read time, author) */}
@@ -50,7 +50,7 @@ const Grind = () => {
             <div className="font-inter text-left text-sm text-gray-800 space-y-6 px-6 sm:px-20 md:px-32 lg:px-48 mb-16 leading-relaxed">
                 <h1 className="text-2xl font-semibold">From Idea to Execution</h1>
                 <p className="text-lg">
-                    Condrx was born out of countless late nights spent questioning what to build and how to make it truly useful. The idea wasn&apos;t obvious at first—it came from a blend of frustration with repetitive research workflows and the excitement of what was possible using cutting-edge machine learning.
+                    navillo was born out of countless late nights spent questioning what to build and how to make it truly useful. The idea wasn&apos;t obvious at first—it came from a blend of frustration with repetitive research workflows and the excitement of what was possible using cutting-edge machine learning.
                 </p>
                 <p className="text-lg">
                     Many nights were spent sketching interfaces in Figma, building mockups, and refining the product experience. The goal was always clear: build something genuinely helpful for people in research and development—something that saves time, enhances clarity, and unlocks insights.
@@ -66,7 +66,7 @@ const Grind = () => {
 
                 <h1 className="text-2xl font-semibold">Built on Research, for Research</h1>
                 <p className="text-lg">
-                    What truly sets Condrx apart is the engine that powers it. Inspired by the paper{" "}
+                    What truly sets navillo apart is the engine that powers it. Inspired by the paper{" "}
                     <a
                         href="https://arxiv.org/abs/2507.19060"
                         target="_blank"
@@ -82,7 +82,7 @@ const Grind = () => {
                 </p>
 
                 <p className="text-lg">
-                    In the end, Condrx isn’t just a product—it’s the result of relentless iteration, obsession with detail, and a belief that the future of tools lies in making complex tasks simple and intuitive.
+                    In the end, navillo isn’t just a product—it’s the result of relentless iteration, obsession with detail, and a belief that the future of tools lies in making complex tasks simple and intuitive.
                 </p>
             </div>
 
