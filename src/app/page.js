@@ -132,7 +132,7 @@ const Home = () => {
       <div className="relative flex flex-col items-center text-center px-4 overflow-hidden pt-8 pb-16">
         <Image 
           alt="Navy Hero Image"
-          src="/8.svg"
+          src="/navillo_navy.png"
           width={900}
           height={900}
           className="-mt-28 mb-0 opacity-95"
@@ -192,7 +192,7 @@ const Home = () => {
       <div id="product-section" className="mt-32 px-6 scroll-mt-24 scroll-animate">
         <div className="max-w-5xl mx-auto text-left space-y-5">
           <h1 className="font-inter font-medium text-5xl text-[#181818] leading-tight">
-            Meet Navillo. An SLAM powered wheelchair powered from low-fiedlity microcontrollers
+            Meet Navillo. An SLAM powered wheelchair powered from low-powered microcontrollers
           </h1>
 
           <div className="pt-8">
@@ -268,9 +268,9 @@ const Home = () => {
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-10 max-w-6xl">
           <div className="bg-gradient-to-br from-[#F9F8F8] to-[#F2F1F1] p-10 rounded-4xl shadow-lg w-full sm:w-[340px] flex flex-col items-center text-center font-inter hover:shadow-2xl hover:scale-105 transition-all duration-500">
-            <Image alt="Write and run code" src="/window.svg" width={251} height={251} className="rounded-xl" />
+            <Image alt="Write and run code" src="/wheelchair.jpeg" width={251} height={251} className="rounded-xl" />
             <p className="mt-7 text-[#181818] text-base leading-relaxed">
-              <span className="font-medium text-lg">Write and run code, instantly</span>{" "}
+              <span className="font-medium text-lg">Advanced Hardware</span>{" "}
               <button
                 onClick={() => setExpanded1(!expanded1)}
                 className="inline-flex items-center text-[#C45816] ml-2 hover:text-[#d66119] transition-all duration-300"
@@ -279,16 +279,16 @@ const Home = () => {
               </button>
               {expanded1 && (
                 <span className="block mt-5 text-[#555555] font-normal text-sm leading-relaxed">
-                  An in-browser Python environment with AI and security built in — no setup required.
+                  Patented wheelchair hardware design, using Intel RealSense Depth Cameras and LiDAR out of the box for anyone to use
                 </span>
               )}
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-[#F9F8F8] to-[#F2F1F1] p-10 rounded-4xl shadow-lg w-full sm:w-[340px] flex flex-col items-center text-center font-inter hover:shadow-2xl hover:scale-105 transition-all duration-500">
-            <Image alt="Copy-paste" src="/window.svg" width={251} height={251} className="rounded-xl" />
+            <Image alt="Copy-paste" src="/webots_demo.png" width={251} height={251} className="rounded-xl" />
             <p className="mt-7 text-[#181818] text-base leading-relaxed">
-              <span className="font-semibold text-lg">Copy-paste without guessing</span>{" "}
+              <span className="font-semibold text-lg">High-fidelity Simulators</span>{" "}
               <button
                 onClick={() => setExpanded2(!expanded2)}
                 className="inline-flex items-center text-[#C45816] ml-2 hover:text-[#d66119] transition-all duration-300"
@@ -297,13 +297,13 @@ const Home = () => {
               </button>
               {expanded2 && (
                 <span className="block mt-5 text-[#555555] font-normal text-sm leading-relaxed">
-                  A library of pre-audited code snippets for APIs, auth, and data handling, safe by default.
+                  A simulator to validate the use of HectorSLAM and RTAB-SLAM algorithms along with PPO for agentic & knowledgable movement
                 </span>
               )}
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-[#F9F8F8] to-[#F2F1F1] p-10 rounded-4xl shadow-lg w-full sm:w-[340px] flex flex-col items-center text-center font-inter hover:shadow-2xl hover:scale-105 transition-all duration-500">
+          {/* <div className="bg-gradient-to-br from-[#F9F8F8] to-[#F2F1F1] p-10 rounded-4xl shadow-lg w-full sm:w-[340px] flex flex-col items-center text-center font-inter hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Image alt="Support" src="/window.svg" width={251} height={251} className="rounded-xl" />
             <p className="mt-7 text-[#181818] text-base leading-relaxed">
               <span className="font-semibold text-lg">Support you can trust</span>{" "}
@@ -319,7 +319,7 @@ const Home = () => {
                 </span>
               )}
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -328,6 +328,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto relative flex justify-center items-center">
           
           {/* ICONS CONTAINER */}
+          {/* Github, Pi, Webots */}
           <div className="absolute inset-0 pointer-events-none">
             {/* Left Stack */}
             <div className="absolute left-0 top-1/2 transform -translate-y-1/2 h-[400px] w-[200px]">
@@ -335,23 +336,24 @@ const Home = () => {
                 <Image alt="Github" src="/github.svg" height={80} width={80} />
               </div>
               <div className="absolute left-10 top-[140px] hover:scale-110 transition-transform duration-300 z-10">
-                <Image alt="Cursor" src="/cursor_logo.png" height={80} width={80} />
+                <Image alt="Raspberry Pi" src="/rpi.jpg" height={80} width={80} />
               </div>
               <div className="absolute left-0 bottom-0 hover:scale-110 transition-transform duration-300">
-                <Image alt="VS Code" src="/Visual_Studio_Code.png" height={80} width={80} />
+                <Image alt="Webots Simulator" src="/webots.jpg" height={80} width={80} />
               </div>
             </div>
 
             {/* Right Stack */}
+            {/* Arduino, ros, python */}
             <div className="absolute right-0 top-1/2 transform -translate-y-1/2 h-[400px] w-[200px]">
               <div className="absolute right-0 top-8 hover:scale-110 transition-transform duration-300">
-                <Image alt="Javascript" src="/javascript.png" height={80} width={80} />
+                <Image alt="Arduino" src="/arduino.jpg" height={80} width={80} />
               </div>
               <div className="absolute right-10 top-[200px] hover:scale-110 transition-transform duration-300 z-10">
-                <Image alt="Python" src="/Python.png" height={80} width={80} />
+                <Image alt="ROS 2" src="/ros.jpg" height={80} width={80} />
               </div>
-              <div className="absolute right-10 top-[360px] hover:scale-110 transition-transform duration-300 z-10">
-                <Image alt="HTML" src="/html.png" height={80} width={80} />
+              <div className="absolute right-10 top-[300px] hover:scale-110 transition-transform duration-300 z-10">
+                <Image alt="Python" src="/Python.png" height={80} width={80} />
               </div>
             </div>
           </div>
@@ -359,13 +361,13 @@ const Home = () => {
           {/* TEXT CONTENT */}
           <div className="text-center z-10 max-w-4xl">
             <h1 className="font-inter text-lg text-[#C45816] font-semibold mb-4 uppercase tracking-wide">
-              Your favorite plugins
+              State Of The Art Technology
             </h1>
             <h2 className="font-inter text-5xl font-semibold text-[#181818] leading-tight mb-6">
-              navillo lives where you code, <br /> upgrading the tools you <br /> already use
+              navillo works everywhere <br /> integrating seamlessly to everyday life
             </h2>
             <p className="font-inter text-xl text-[#555555] mt-8 max-w-3xl mx-auto leading-relaxed">
-              navillo integrates directly with editors like Cursor and <br /> Copilot, enhancing the plugins you already use with <br /> seamless, real-time security.
+              navillo integrates directly the most advanced technologies like rtab-slam and A* <br /> tested by countless simulations from Webots<br /> and reinforcement learning.
             </p>
           </div>
 
@@ -374,7 +376,7 @@ const Home = () => {
 
 
       {/* People Section */}
-      <div className="flex justify-center items-center px-6 py-10 font-inter scroll-animate">
+      {/* <div className="flex justify-center items-center px-6 py-10 font-inter scroll-animate">
         <div className="flex gap-8 items-center">
           <div className="flex flex-col gap-5">
             <Image 
@@ -467,11 +469,11 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Affiliations Section */}
-      <div className="flex flex-col items-center justify-center space-y-5 py-5 font-inter bg-gradient-to-b overflow-hidden from-gray-50 to-white scroll-animate">
-        {/* <h2 className="text-3xl font-semibold text-[#181818] mb-6">Backed by the best</h2> */}
+      {/* <div className="flex flex-col items-center justify-center space-y-5 py-5 font-inter bg-gradient-to-b overflow-hidden from-gray-50 to-white scroll-animate">
+        <h2 className="text-3xl font-semibold text-[#181818] mb-6">Backed by the best</h2>
         
         <div className="flex flex-row items-center justify-center gap-16">
           <Image 
@@ -513,7 +515,7 @@ const Home = () => {
             className="hover:scale-110 transition-transform duration-300 opacity-80 hover:opacity-100"
           />
         </div>
-      </div>
+      </div> */}
 
       {/* Footer */}
       <footer className="bg-gradient-to-b from-[#1E1E1E] to-[#0f0f0f] text-white px-6 py-16 mt-0">
