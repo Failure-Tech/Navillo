@@ -32,7 +32,7 @@ const Navbar = () => {
                 {/* <li className="font-inter cursor-pointer hover:text-[#E37633] hover:duration-300" onClick={() => router.push("/vision")}>Vision</li> */}
                 {/* <li className="font-inter cursor-pointer hover:text-[#E37633] hover:duration-300" onClick={() => router.push("/pricing")}>Pricing</li> */}
                 <li className="font-inter cursor-pointer hover:text-[#E37633] hover:duration-300" onClick={() => router.push("/team")}>Team</li>
-                <li className="font-inter cursor-pointer hover:text-[#E37633] hover:duration-300" onClick={() => router.push("/blog")}>Blog</li>
+                {/* <li className="font-inter cursor-pointer hover:text-[#E37633] hover:duration-300" onClick={() => router.push("/blog")}>Blog</li> */}
                 {/* <li className="font-inter cursor-pointer hover:text-[#E37633] hover:duration-300" onClick={() => router.push("/contact")}>Contact</li> */}
             </ul>
 
