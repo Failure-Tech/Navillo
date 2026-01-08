@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Navbar from "@/app/components/navbar";
-import Footer from "@/app/components/footer";
+// import Navbar from "@/app/components/navbar";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+// import Footer from "@/app/components/footer";
 import { useRouter } from "next/navigation";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
