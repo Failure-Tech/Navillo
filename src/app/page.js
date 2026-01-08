@@ -142,7 +142,7 @@ const Home = () => {
 
         <div className="-mt-35 z-10 flex flex-col items-center relative space-y-6 max-w-5xl">
           <h1 className="font-inter font-semibold text-[#181818] text-6xl leading-tight">
-            Our product is <br />
+            Our product <br />
             <span className="inline-block min-w-[320px] text-left text-[#C45816] typing-cursor">
               {displayText}
             </span>
@@ -218,8 +218,8 @@ const Home = () => {
               as an affordable option, we built in mind of what our consumers would truly rely on from this.
             </p>
             <Image 
-              alt="Guardrails Image"
-              src="/real_time_guardrails.png"
+              alt="Side Wheelchair Image"
+              src="/side_wheelchair.jpg"
               width={461}
               height={260}
               className="rounded-xl shadow-2xl hover:shadow-3xl transition-shadow duration-500"
@@ -234,8 +234,8 @@ const Home = () => {
                how transportation works in the modern day.
             </p>
             <Image 
-              alt="Instant Secure Rewrite Image"
-              src="/instant_rewrite.png"
+              alt="Back Electrical Components Wheelchair"
+              src="/back_wheelchair.jpg"
               width={461}
               height={260}
               className="rounded-xl shadow-2xl hover:shadow-3xl transition-shadow duration-500"
