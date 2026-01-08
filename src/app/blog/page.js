@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Navbar from "@/app/components/navbar";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import Image from "next/image";
 import { FaChevronRight } from "react-icons/fa";
-import Footer from "@/app/components/footer";
 import { useRouter } from "next/navigation";
 
 const Blog = () => {

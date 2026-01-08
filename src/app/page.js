@@ -4,10 +4,10 @@ import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import { useRouter } from "next/navigation";
-// import Navbar from "@/app/components/navbar";
+// import Navbar from "../components/navbar";
 import Navbar from "./components/navbar"; 
 import Footer from "./components/footer";
-// import Footer from "@/app/components/footer";
+// import Footer from "../components/footer";
 
 const Demo = () => {
   return (

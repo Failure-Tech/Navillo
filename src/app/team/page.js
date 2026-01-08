@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-// import Navbar from "@/app/components/navbar";
+// import Navbar from "../components/navbar";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-// import Footer from "@/app/components/footer";
+// import Footer from "../components/footer";
 import Image from "next/image";
 
 const Team = () => {
