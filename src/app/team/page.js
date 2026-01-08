@@ -25,7 +25,7 @@ const Team = () => {
       name: "Arnav Maheshwari",
       image: "/arnav.jpg",
       description:
-        "Sample description",
+        "Arnav Maheshwari is a student at Alliance Academy for Innovation in Georgia, United States, with a strong interest in economics, development finance, and applied research. He is currently working on projects that examine how economic systems, policy decisions, and financial structures affect communities, particularly in developing and disaster-affected regions, and seeks to apply data-driven and human-centered approaches to create meaningful social impact.",
     },
     {
       name: "Gautham Korrapati",
