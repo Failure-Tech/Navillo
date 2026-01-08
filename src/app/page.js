@@ -132,7 +132,7 @@ const Home = () => {
       <div className="relative flex flex-col items-center text-center px-4 overflow-hidden pt-8 pb-16">
         <Image 
           alt="Navy Hero Image"
-          src="/navillo_navy.png"
+          src="/1_final_logo_square.svg"
           width={900}
           height={900}
           className="-mt-28 mb-0 opacity-95"
@@ -170,9 +170,6 @@ const Home = () => {
               className="absolute -left-64 -top-24 -rotate-45 opacity-30"
             /> */}
 
-            <button onClick={handleNavigate} className="font-inter font-medium flex items-center cursor-pointer gap-2 bg-gradient-to-r from-[#C45816] to-[#d66119] text-white px-8 py-3.5 rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 z-10 shadow-xl">
-              Join the waitlist <FaChevronRight className="text-sm" />
-            </button>
             <button onClick={() => router.push("/blog")} className="font-inter font-medium flex items-center cursor-pointer gap-3 bg-gradient-to-r from-[#373941] to-[#232428] text-white px-8 py-3.5 rounded-lg hover:bg-[#4a4b54] hover:shadow-2xl hover:scale-105 transition-all duration-300 z-10 shadow-xl">
               See our work <FaChevronRight className="text-sm" />
             </button>
@@ -189,21 +186,21 @@ const Home = () => {
       </div>
 
       {/* Product Section */}
-      <div id="product-section" className="mt-32 px-6 scroll-mt-24 scroll-animate">
+      <div id="product-section" className="mt-20 px-6 scroll-mt-24 scroll-animate">
         <div className="max-w-5xl mx-auto text-left space-y-5">
           <h1 className="font-inter font-medium text-5xl text-[#181818] leading-tight">
             Meet Navillo. An SLAM powered wheelchair powered from low-powered microcontrollers
           </h1>
 
           <div className="pt-8">
-            {/* <Image 
+            <Image 
               alt="navillo Product Interface"
-              src="/window.svg"
+              src="/wheelchair.jpeg"
               width={973}
               height={535}
               className="rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500"
-            /> */}
-            <Demo />
+            />
+            {/* <Demo /> */}
           </div>
         </div>
       </div>
@@ -212,10 +209,11 @@ const Home = () => {
       <div className="mt-32 px-6 scroll-animate">
         <div className="flex flex-col lg:flex-row justify-center text-left gap-x-20 gap-y-5 max-w-6xl mx-auto">
           <div className="flex flex-col items-left text-left font-inter space-y-3 max-w-md hover:scale-105 transition-transform duration-500">
-            <h1 className="text-4xl font-semibold text-[#181818]">Real-Time Processing</h1>
+            <h1 className="text-4xl font-semibold text-[#181818]">Our Purpose</h1>
             <p className="text-lg text-[#555555] leading-relaxed">
-              Processes the environment and confines it into a SLAM mapping
-              and using A* for optimal path finding from the constructed graph.
+              We built Navillo to ensure democratized transportation for those with disabilities, making sure
+              that they can live the life stripped from them due to their environment. While maintaining the wheelchair 
+              as an affordable option, we built in mind of what our consumers would truly rely on from this.
             </p>
             <Image 
               alt="Guardrails Image"
@@ -229,7 +227,9 @@ const Home = () => {
           <div className="flex flex-col items-left text-left font-inter space-y-3 max-w-md hover:scale-105 transition-transform duration-500">
             <h1 className="font-inter text-4xl font-semibold text-[#181818]">Secure Transporation</h1>
             <p className="font-inter text-lg text-[#555555] leading-relaxed">
-              Reduces travel time for anyone and is secure as seen from our trial runs.
+              Throughout our engineering process, we made sure that Navillo was built off of one core principle, that being
+              effective transporation. After conduction tests, trial runs, etc, we can confidently say that our product redefines
+               how transportation works in the modern day.
             </p>
             <Image 
               alt="Instant Secure Rewrite Image"
@@ -240,24 +240,6 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
-
-      {/* CTA Section */}
-      <div className="flex flex-col items-start text-left font-inter space-y-8 px-6 mt-36 max-w-5xl mx-auto scroll-animate">
-        <h1 className="text-xl text-[#C45816] font-inter font-medium uppercase tracking-wide">
-          It&apos;s time to naviate safe
-        </h1>
-        
-        <h1 className="text-6xl font-inter font-medium text-[#181818] leading-tight">
-          Advanced Technology. <br />
-          Automatic SLAM. <br />
-          Safe Navigation. <br />
-          Simulated.
-        </h1>
-
-        <button onClick={handleNavigate} className="cursor-pointer flex font-inter font-medium items-center gap-3 bg-gradient-to-r from-[#C45816] to-[#d66119] text-white px-8 py-3.5 rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">
-          Join the waitlist <FaChevronRight className="text-sm" />
-        </button>
       </div>
 
       {/* Smart Coding Section */}
@@ -323,8 +305,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Plugins Section - Completely Revamped */}
-      <div className="px-6 py-32 bg-gradient-to-b -mt-10 from-white via-gray-50 to-white scroll-animate">
+      <div className="px-6 py-32 bg-gradient-to-b -mt-8 from-white via-gray-50 to-white scroll-animate">
         <div className="max-w-7xl mx-auto relative flex justify-center items-center">
           
           {/* ICONS CONTAINER */}
@@ -359,7 +340,7 @@ const Home = () => {
           </div>
 
           {/* TEXT CONTENT */}
-          <div className="text-center z-10 max-w-4xl">
+          <div className="text-center z-5 max-w-4xl">
             <h1 className="font-inter text-lg text-[#C45816] font-semibold mb-4 uppercase tracking-wide">
               State Of The Art Technology
             </h1>
@@ -518,7 +499,7 @@ const Home = () => {
       </div> */}
 
       {/* Footer */}
-      <footer className="bg-gradient-to-b from-[#1E1E1E] to-[#0f0f0f] text-white px-6 py-16 mt-0">
+      {/* <footer className="bg-gradient-to-b from-[#1E1E1E] to-[#0f0f0f] text-white px-6 py-16 mt-0">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="space-y-5">
@@ -572,7 +553,8 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </footer>
+      </footer> */}
+      <Footer />
     </>
   );
 };
