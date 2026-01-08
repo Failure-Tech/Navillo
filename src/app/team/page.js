@@ -23,15 +23,15 @@ const Team = () => {
     },
     {
       name: "Arnav Maheshwari",
-      image: "/sunkalp.png",
+      image: "/arnav.jpg",
       description:
-        "Responsible for hardware integration, motor control, and embedded systems, bridging mechanical reliability with intelligent autonomy.",
+        "Sample description",
     },
     {
       name: "Gautham Korrapati",
-      image: "/sunkalp.png",
+      image: "/gautham.jpg",
       description:
-        "Leads testing, simulations, and real-world validation to ensure Navillo performs safely and reliably across diverse environments.",
+        "Gautham Korrapati is a current junior at Academy of the Canyons, and is passionate about all-things robotics related. He has expertise with building machine learning neural networks, web development, and building minature circuts for various side projects. He brings the technical depth to this team, using his experience and knowledge to develop simulations, program the wheelchair, generating mapping, and much more. Gautham also has experience in research, publishing a paper in IEEE as well.",
     },
   ];
 
